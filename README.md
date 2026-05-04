@@ -8,6 +8,9 @@ This project classifies aerial images as **flooded** or **non-flooded** using de
 - 2,343 images (train: 1,445, validation: 450, test: 448)
 - Segmentation masks converted to binary labels (flood vs non-flood)
 
+Download it here:
+https://github.com/BinaLab/FloodNet-Challenge-EARTHVISION2021
+
 ## Approach
 - Preprocessing: resize (512×512), normalize, mask → binary label  
 - Models: **ResNet50** and **ResNet101** (transfer learning)  
